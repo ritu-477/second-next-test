@@ -26,7 +26,7 @@ export default {
       },
       fontFamily:{
         "roboto":"'roboto',sens-serif",
-        "poppins":"'poppins',sens-serif",
+        "Poppins":"'Poppins',sens-serif",
       },
     },
   },

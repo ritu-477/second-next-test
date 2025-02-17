@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="flex justify-center items-center gap-3 py-10">
-        <Link href={"/question-1/dashboard"} className="text-white">
+      <div className="h-screen flex items-center justify-center gap-10 bg-black">
+        <Link href={"/question-1/dashboard"} className="text-white font-bold text-xl">
           Question-1
-        </Link> 
-        <Link href={"/question-2/dashboard"} className="text-white">
+        </Link>
+        <Link href={"/question-2/dashboard"} className="text-white font-bold text-xl">
           Question-2
         </Link>
       </div>
