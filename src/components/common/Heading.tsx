@@ -2,7 +2,7 @@ import React from "react";
 
 interface HeadingProps {
   title: string;
-  highlightedText: string;
+  highlightedText?: string;
   customClass?: string; 
   titleTwo?:string
 }
